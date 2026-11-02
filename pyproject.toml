@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tomohodoy-tts_jd281"
+name = "tomohodoy-operator_fusion_payoff_threshold_scan"
 version = "0.1.0"
 description = "为每一项打分并与阈值比较，明确标出通过、边界与不通过三档"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://tomohodoy.github.io"
-Repository = "https://github.com/tomohodoy/tts_jd281"
-Issues = "https://github.com/tomohodoy/tts_jd281/issues"
+Repository = "https://github.com/tomohodoy/operator_fusion_payoff_threshold_scan"
+Issues = "https://github.com/tomohodoy/operator_fusion_payoff_threshold_scan/issues"
 
 [project.scripts]
-tts_jd281 = "tts_jd281:main"
+operator_fusion_payoff_threshold_scan = "operator_fusion_payoff_threshold_scan:main"
 
 [tool.setuptools]
-py-modules = ["tts_jd281"]
+py-modules = ["operator_fusion_payoff_threshold_scan"]
